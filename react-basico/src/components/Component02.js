@@ -5,7 +5,7 @@ const Component02 = () => {
   return (
     <div>
         Component02
-        <p>{variavel}</p>
+        <p>Meu numero salvo como vairavel: {variavel}</p>
         <p>Crsitian</p>
     </div>
   )
