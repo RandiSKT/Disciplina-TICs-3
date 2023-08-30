@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.skate-list, .skater-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skate-icon {
+  display: inline-block;
+  width: 20px; /* Ajuste o tamanho do ícone conforme necessário */
+  height: 20px;
+  background-image: url("assets/skate.png");
+  background-size: cover;
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+}

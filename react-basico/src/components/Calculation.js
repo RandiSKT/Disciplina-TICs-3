@@ -16,18 +16,18 @@ const Calculation = () => {
 
   const printEventOdd = (number) => {
     if (number%2===0) {
-      return <h2>è par PORRA!</h2>
+      return <h2>è par MANO!</h2>
     }
     else {
-      return <h2>è impar MERDA!</h2>
+      return <h2>è impar Brother!</h2>
     }
   }
 
   return (
     <div>
-      <p>Valor 1 = {num1}</p>
-      <p>Valor 2 = {num2}</p>
-      <p>Valor 1 + Valor 2 = {resultado}</p>
+      <div>Valor 1 = {num1}</div>
+      <div>Valor 2 = {num2}</div>
+      <div>Valor 1 + Valor 2 = {resultado}</div>
       <button onClick={() => handleMyClick("soma")}>Somar</button>
       <button onClick={() => handleMyClick("sub")}>Subtrair</button>
       <p>numero 4: {printEventOdd(4)}</p>
