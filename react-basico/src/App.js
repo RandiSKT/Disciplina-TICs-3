@@ -9,6 +9,7 @@ import ShowUserData from "./components/ShowUserData";
 import React, { useState } from "react";
 import ShowUserData2 from "./components/ShowUserData2";
 import ShowUserData3 from "./components/ShowUserData3";
+import ContainerComponent from "./components/ContainerComponent";
 
 function App() {
   const userAge = 22;
@@ -69,6 +70,12 @@ function App() {
           registration={student.registration}
         />
       ))}
+      <ContainerComponent number={userAge}>
+        <p>CHILDREN</p>
+      </ContainerComponent>
+      <ContainerComponent number={2}>
+        <p>CHILDREN</p>
+      </ContainerComponent>
     </div>
   );
 }
