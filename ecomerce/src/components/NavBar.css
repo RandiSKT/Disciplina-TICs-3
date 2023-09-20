@@ -1,0 +1,34 @@
+/* NavBar.css */
+.navbar {
+    background-color: #4caf50; /* Cor amigável (verde) */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #ff9800; /* Altera a cor ao passar o mouse por cima */
+  }
+  
