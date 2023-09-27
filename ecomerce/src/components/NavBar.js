@@ -13,9 +13,6 @@ const NavBar = () => {
           <li>
             <NavLink to={"/about"}>Sobre meus manos</NavLink>
           </li>
-          <li>
-            <NavLink to={"/products"}>Produdos mano</NavLink>
-          </li>
         </ul>
       </div>
     </div>

@@ -2,7 +2,6 @@ import "./Home.css";
 import Logo from "../images/super-shoes.png";
 import RightArrow from "../images/216151_right_chevron_icon.png";
 import { NavLink } from "react-router-dom";
-import NavBar from "../components/NavBar";
 import { useGetData } from "../hooks/useGetdata";
 import { useRef } from "react";
 
@@ -23,7 +22,6 @@ const Home = () => {
   return (
     <div>
       <h1>Sapataria Rasta Shoes</h1>
-      <NavBar />
       <div className="container">
         <div className="logo">
           <img src={Logo} alt="Super Shoes Logo" />

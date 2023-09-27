@@ -1,0 +1,19 @@
+.id {
+    color: #000;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.price {
+    color: crimson;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
