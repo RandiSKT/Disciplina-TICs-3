@@ -1,5 +1,5 @@
 import "./Home.css";
-import Logo from "../images/super-shoes.png";
+import Logo from "../images/Rasta.jpg";
 import RightArrow from "../images/216151_right_chevron_icon.png";
 import { NavLink } from "react-router-dom";
 import { useGetData } from "../hooks/useGetdata";
@@ -24,27 +24,25 @@ const Home = () => {
       <h1>Sapataria Rasta Shoes</h1>
       <div className="container">
         <div className="logo">
-          <img src={Logo} alt="Super Shoes Logo" />
+          <img height="100px" width={200} src={Logo} alt="Super Shoes Logo" />
         </div>
+        {loading && <p>Carregando Dados...</p>}
+        {error && <p>{error}</p>}
         <div className="carousel" ref={carousel}>
           {items &&
             items.map((item) => (
               <div className="item" key={item.id}>
-                {" "}
                 <div className="image">
-                  {" "}
-                  <img src={item.image} alt={item.name} />{" "}
-                </div>{" "}
+                  <img src={item.image} alt={item.name} />
+                </div>
                 <div className="info">
-                  {" "}
-                  <span className="name">{item.name}</span>{" "}
-                  <span className="oldPrice">R$ {item.oldPrice}</span>{" "}
-                  <span className="price">R$ {item.price}</span>{" "}
-                </div>{" "}
+                  <span className="name">{item.name}</span>
+                  <span className="oldPrice">R$ {item.oldPrice}</span>
+                  <span className="price">R$ {item.price}</span>
+                </div>
                 <p className="detalhes">
-                  {" "}
-                  <NavLink to={`/products/${item.id}`}>Detalhes</NavLink>{" "}
-                </p>{" "}
+                  <NavLink to={`/products/${item.id}`}>Detalhes</NavLink>
+                </p>
               </div>
             ))}
         </div>

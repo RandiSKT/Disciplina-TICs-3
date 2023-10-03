@@ -11,6 +11,8 @@ const Product = () => {
   return (
     <div>
       <p className={styles.id}>ID do produto: {id}</p>
+      {loading && <p>Carregando Dados...</p>}
+      {error && <p>{error}</p>}
       {product && (
         <div>
           <h1>{product.name}</h1>
