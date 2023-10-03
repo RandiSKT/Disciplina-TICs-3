@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Operadores = ({ operador, simbolo }) => {
+const Operadores = ({ handleOperacao, simbolo }) => {
   // Estilos CSS inline com base no símbolo
   const buttonStyles = {
     fontSize: '58px',
@@ -16,7 +16,7 @@ const Operadores = ({ operador, simbolo }) => {
 
   return (
     <div>
-      <button style={buttonStyles}>{simbolo}</button>
+      <button style={buttonStyles} onClick={handleOperacao}>{simbolo}</button>
     </div>
   );
 };

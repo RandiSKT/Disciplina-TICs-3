@@ -20,6 +20,8 @@ legend {
     height: 68px;
     border-radius: 4px;
     border-color: gray;
+    text-align: center;
+    font-size: 48px;
 }
 
 .calculadora {
@@ -50,10 +52,15 @@ legend {
     font-size: 58px;
     font-family: Arial;
   }
+
+  .operadores:active{
+    background-color: black;
+  }
   
   .operador {
     font-size: 24px;
   }
+
   
   .igual {
     font-size: 24px;
@@ -65,6 +72,8 @@ legend {
     height: 68px;
     border-radius: 4px;
     border-color: gray;
+    font-size: 48px;
+    text-align: center;
   }
 
   
