@@ -1,0 +1,4 @@
+mongodb+srv://randi:<password>@cluster0.scbcfwf.mongodb.net/?retryWrites=true&w=majority
+
+randi
+kc6XNVc5Hw98diIx
