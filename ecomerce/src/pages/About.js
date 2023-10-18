@@ -8,7 +8,7 @@ const About = () => {
       </div>
       <header>
         <h1>
-          Rasta Shoes: Caminhando na Vibração Positiva do Reggae com Estilo nos
+          Rastas Shoes: Caminhando na Vibração Positiva do Reggae com Estilo nos
           Pés!
         </h1>
       </header>
