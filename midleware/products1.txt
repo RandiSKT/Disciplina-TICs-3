@@ -1,0 +1,6 @@
+cerveja
+banana
+cloro
+empanada
+carne
+leite
